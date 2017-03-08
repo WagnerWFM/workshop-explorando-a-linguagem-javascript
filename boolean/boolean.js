@@ -6,8 +6,8 @@
 // é false ou true basta usar duas negação. A primeira negação muda o estado iriginal e a segunda faz voltar ao estado original.
 
 
-// Sempre serem falsos no JavaScript:
-console.log('01 - ',  !!0);	// 0 false, nega duas vezes volta o valor normal para saber se é true ou false se usar função.
+// Sempre serão falsos no JavaScript. Negando duas vezes consiguimos obter o valor se é true ou false:
+console.log('01 - ',  !!0);	// 0 false. Qualquer número diferente de 0 é true, seja negativo ou positivo.
 console.log('02 - ',  !!''); // string vazia é false.
 console.log('03 - ',  !!NaN);	// Not a number.
 console.log('04 - ',  !!null);
