@@ -25,7 +25,7 @@ l = 0;
 for (;;) {
 	console.log('-->', l++);
 
-	if (l === 101) {
+	if (l === 100) {
 		break;
 	}	
 }
