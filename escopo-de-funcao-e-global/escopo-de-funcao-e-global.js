@@ -3,14 +3,14 @@
 var nome = 'AlgaWorks'; 	// var global.
 
 var capitalizar = function () {
-	var nome = 'AlgaWorks'.toUpperCase();	//variável local a função capitalizar.
+	var nome = 'AlgaWorks'.toUpperCase();	// altera variável INTERNA/LOCAL 'nome'.
 }
 
 capitalizar();
 console.log('nome:', nome);
 
 var capitalizar2 = function () {
-	nome = 'Java Script'.toUpperCase();	// altera variável global 'nome'.
+	nome = 'Java Script'.toUpperCase();	// altera variável GLOBAL 'nome'.
 }
 
 capitalizar2();	// chamada da função, altera o valor da variável 'nome'.
