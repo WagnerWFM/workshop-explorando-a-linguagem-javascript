@@ -14,3 +14,13 @@ console.log(carro[2].som);	//mostra propriedade específica do objeto.
 
 console.log(carro[3]);	//retorna um function.
 console.log(carro[3]('Ok'));	//retorna a msg 'ligando o carro... OK'.
+
+// Usar forEach para mostrar elementos do array.
+console.log('---> Inicio forEach');
+carro.forEach(
+	function(elemento) {
+		console.log(elemento);
+		if (elemento.som === 'Pioneer') {
+			console.log('Existe um som Pioneer');
+		}
+	});
