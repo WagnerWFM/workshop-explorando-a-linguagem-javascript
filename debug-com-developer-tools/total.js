@@ -8,7 +8,7 @@ var totalElement = document.getElementById('total');
 valorElement.addEventListener('keyup', function(e) {
 	var total;
 	var valor = parseFloat(valorElement.value ? valorElement.value : 0);	// valorElement (input da página) tem valor? se sim, retorna o valor, se não retorna 0. Verificador ternário.
-
+	
 	if (valor > 0  && valor < 10) {
 		total = valor + valor * 0.3 + 5;	// Ex: 5 + (30% de 5) + 5 = 11.5.
 	} else if (valor >= 10 && valor < 50) {
